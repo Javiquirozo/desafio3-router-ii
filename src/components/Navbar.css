@@ -1,0 +1,19 @@
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #eee;
+  padding: 10px;
+}
+
+.nav-link {
+  color: #333;
+  text-decoration: none;
+  padding: 5px 10px;
+}
+
+.nav-link.active {
+  font-weight: bold;
+  color: rgb(191, 85, 171);
+  border-bottom: 2px solid rgb(191, 85, 171);
+}
